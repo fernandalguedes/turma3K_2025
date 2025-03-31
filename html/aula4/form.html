@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    
+</head>
+<body>
+    <form action="" method="get">
+        <label>Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"
+        maxlength="30" size="30" ><br>
+        <label>Sobrenome:</label>
+        <input type="text" name="Sobrenome" placeholder="sobrenome"><br>
+        Escolha sua linguagem:
+        <input type="radio"  name="fav_language" value="HTML"> HTML
+        <input type="radio" name="fav_language" value="CSS"> CSS
+        <input type="radio" name="fav_language" value="Javascript">Javascript
+        <br>
+        Escolha seus tópicos:
+        <input type="checkbox"  name="topico1" value="HTML"> HTML
+        <input type="checkbox" name="topico2" value="CSS"> CSS
+        <input type="checkbox" name="topico3" value="Javascript">Javascript
+        
+        
+
+
+
+
+
+        <br>
+        <input type="submit" name="Enviar" value="Enviar"  onclick="validar()">
+        <input type="reset" name="Limpar" value="Limpar">
+    </form>
+</body>
+</html>
