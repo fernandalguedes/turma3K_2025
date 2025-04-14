@@ -1,0 +1,51 @@
+body {
+    background-color: red;
+    background-image: url("mario.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-attachment: fixed;
+
+
+
+}
+
+p {
+
+    color: white;
+    font-size: 24pt;
+    text-indent: 3cm;
+   
+}
+
+.goblin-one-regular {
+    font-family: "Goblin One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.justificar {
+    text-align: justify;
+}
+#c1{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#c1-1{
+    text-decoration: underline;
+}
+.negrito{
+    font-weight: bolder;
+    color:black;
+}
