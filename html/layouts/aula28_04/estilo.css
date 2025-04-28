@@ -1,0 +1,35 @@
+body{    background-color: aqua;}
+*{    box-sizing: border-box;}
+#main{
+    width: 800px;
+    border:1px solid black;
+    margin:0 auto;
+}
+#cabecalho,#rodape{
+    text-align: center;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border: 1px solid green;
+}
+#section{
+    background-color: #f1f1f1;
+	height: 300px;
+}
+#nav{
+    float: left;
+	width: 30%;
+	height: 300px;	
+	background: #ccc;
+	padding: 20px;
+}
+#article{
+    float: left;
+	width: 70%;
+	height: 300px;	
+    background-color: #f1f1f1;
+	padding: 20px;
+}
+#rodape{
+    clear: both;
+}
